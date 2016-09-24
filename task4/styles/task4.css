@@ -1,0 +1,28 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.box1 {
+	background-color: #ccc;
+	width: 400px;
+	height: 200px;
+	margin: 200px auto;
+	position: relative;
+/*	overflow: hidden;也可以用这个属性来实现*/
+}
+.box2 {
+	background-color: #fc0;
+	width: 50px;
+	height: 50px;
+	border-radius: 0 0 50px 0;
+	position: absolute;
+}
+.box3 {
+	background-color: #fc0;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;	
+}
