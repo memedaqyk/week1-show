@@ -5,16 +5,19 @@
 .content {
 	background-color: #eee;
 	margin: 20px;
-	height: 500px;
+	/*height: 500px;*/
 	overflow: hidden;
 	min-width: 700px;
 }
 .team {
 	padding: 20px;
-	width: 160px;
+	/*width: 160px;*/
 	height: 80px;
 	float: left;
-	margin: 20px 0 20px 20px;
+	margin: 20px 0 20px 20px;												
+}
+.team img {
+	float: left;
 }
 .team h2 {
 	float: right;
@@ -35,7 +38,7 @@ div {
 }
 .team-introduction {
 	padding: 20px;
-	margin: 20px 161.3px 0 241.3px;
+	margin: 20px 161.3px 20px 241.3px;
 	width: auto;
 }
 p {
