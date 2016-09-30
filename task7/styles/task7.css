@@ -1,0 +1,549 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 100%;
+	min-width: 1280px;
+	font-family: 'Microsoft YaHei';
+}
+header {
+	padding-top: 3px;
+	font-size: 0;
+	width: 100%;
+	height: 57px;
+}
+.banner-left span {
+	font-size: 21px;
+}
+.banner-left {
+	height: 57px;
+	position: relative;
+	left: 7%;
+	display: inline-block;
+	text-align: center;
+	line-height: 57px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+nav {
+	display: inline-block;
+	position: relative;	
+	width: 40%;
+	left: 40%;
+	text-align: center;
+	line-height: 57px;
+	vertical-align: middle;
+}
+nav ul {
+	width: 100%;
+	text-align: center;
+	height: 57px;
+}
+nav li {
+	width: 18%;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+}
+nav a:hover {
+	color: #e74f4d;
+}
+nav ul li:hover {
+	border-bottom: 3px #e74f4d solid;
+}
+nav a {
+	color: #8e9197;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+.banner-right {
+	height: 57px;
+	display: inline-block;
+	position: relative;
+	left: 42%;
+	font-size: 16px;
+	line-height: 57px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.banner-right a {
+	text-decoration: none;
+	color: #e74f4d;
+}
+#section1 {
+	width: 100%;
+	height: 650px;
+	background: url(../images/bg1.png) no-repeat;
+	background-size: 100% auto;
+	position: relative;
+	margin-top: 3px;
+}
+.background1 {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+}
+.background1 p:first-child {
+	font-family: Arial;
+	font-size: 60px;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+}
+.background1 p {
+	font-size: 22px;
+	color: #fff;
+}
+.background1 p:last-of-type {
+	margin-bottom: 60px;
+}
+.background1 button {
+	width: 300px;
+	height: 60px;
+	font-size: 28px;
+	background-color: #e74f4d;
+	border: none;
+	color: white;
+}
+#section2 {
+	font-size: 0;
+	height: 240px;
+}
+#section2 .cell {
+	display: inline-block;
+	width: 25%;
+}
+#section2 .cell .message p {
+	font-size: 13px;
+	text-align: center;
+	margin: 13px 0;
+}
+#section2 .cell .img {
+	height: 130px;
+	width: 100%;
+	line-height: 130px;
+	text-align: center;
+	display: inline-block;
+}
+#section2 .cell .img img {
+	position: relative;
+	top: 28px;
+}
+#section2 .cell .message {
+	height: 50px;
+	border-right: 2px #aaaaaa solid;
+}
+#section2 .cell .message-last {
+	border: none;
+}
+#section3 {
+	height: 160px;
+	background-color: #edecec;
+	text-align: center;
+	padding: 100px;
+}
+#section3 .message p {
+	font-size: 50px;
+	color: #a1a1a1;
+	margin-top: 40px;
+}
+#section4 {
+	background-image: url(../images/bg2.jpg);
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+	padding-top: 80px;
+	text-align: center;
+}
+#section4 .message p:first-child {
+	font-size: 22px;
+	color: #fff;
+}
+#section4 .message span {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	border-top: 2px #fff solid;
+	margin-top: 10px;
+}
+#section4 .message p:last-child {
+	font-size: 13px;
+	color: #fff;
+
+}
+#section4 .text {
+	margin-top: 40px;
+}
+#section4 .text select {
+	width: 240px;
+	height: 36px;
+	background-color: #BE4F48;
+	color: #fff;
+	border: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin: 0 10px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	line-height: 36px;	
+}
+#section4 .text span {
+	width: 240px;
+	height: 36px;
+	background-color: #BE4F48;
+	color: #fff;
+	border: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin: 0 10px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	line-height: 36px;
+}
+#section5 {
+	font-size: 0;
+	text-align: center;
+	height: 600px;
+	background-color: #f7f7f7;
+}
+#section5 .cell {
+	width: 20%;
+	height: 400px;
+	display: inline-block;
+	position: relative;
+	top: 100px;
+}
+#section5 .cell .img {
+	width: 100%;
+	padding: 10px;
+}
+
+#section5 .cell .message p:first-child {
+	font-size: 14px;
+	color: #44403F;
+	margin: 0;
+	padding: 20px 0;
+}
+#section5 .cell .message p:last-child {
+	font-size: 12px;
+	color: #B3AFAC;
+}
+ #section5 .cell .message span{
+ 	display: inline-block;
+	font-size: 24px;
+	padding: 20px 0;
+	letter-spacing: 30px;
+	text-indent: 16px;
+}
+#section6 {
+	height: 560px;
+}
+#section6 .left {
+	background: url(../images/bg3.jpg) no-repeat;
+	height: 560px;
+	width: 66%;
+	position: relative;
+	float: left;
+	background-size: cover;
+}
+#section6 .left .message {
+	width: 500px;
+	height: 300px;
+	position: relative;
+	top: 130px;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+}
+#section6 .left .message p:first-child {
+	font-size: 50px;
+	margin-bottom: 0;
+}
+#section6 .left .message p:nth-child(2) {
+	font-size: 150px;
+	line-height: 150px;
+}
+#section6 .left .message p {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+#section6 .right {
+	margin-left: 66%;
+	text-align: center;
+	height: 560px;
+}
+#section6 .message {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 130px;
+	overflow: hidden;
+}
+#section6 .right .more {
+	margin-top: 10px;
+}
+#section6 .message p:first-child {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+#section6 .message p:last-child {
+	line-height: 30px;
+}
+#section6 .message span {
+	color:  #BE4F48;
+}
+#section6 .right .more button {
+	text-align: center;
+	width: 100px;
+	height: 35px;
+	background-color: #fff;
+	border: 1px #BE4F48 solid;
+	color: #BE4F48;
+	font-size: 13px;
+	margin-top: 60px;
+}
+#section6 .right .dot {
+	padding: 30px 0;
+	text-align: center;
+}
+
+#section6 .right .dot span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border: 1px #000 solid;
+	border-radius: 6px;
+	margin: 3px;
+}
+#section6 .right .dot span:last-child {
+	background-color: #000;
+}
+
+#section7 {
+	width: 100%;
+	height: 520px;
+}
+#section7 .wrap {
+	width: 66%;
+	height: 520px;
+	float: left;
+	font-size: 0;
+}
+#section7 .wrap .cell {
+	display: inline-block;
+	width: 50%;
+	height: 520px;
+	font-size: 20px;
+	text-align: center;
+}
+#section7 .wrap .cell:first-child {
+	background-color: #E84E4C;
+	color: #fff;
+}
+#section7 .wrap .cell .message {
+	position: relative;
+	top: 200px;
+}
+#section7 .wrap .cell p {
+	margin: 0 0 10px 0;
+}
+#section7 .wrap .cell:first-child button {
+	position: relative;
+	top: 200px;
+	border: 1px #fff solid;
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	background-color: #E84E4C;
+	color: #fff;
+}
+#section7 .wrap .cell2 button {
+	position: relative;
+	top: 200px;
+	border: 1px #E84E4C solid;
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	background-color: #fff;
+	color: #E84E4C;
+}
+#section7 .img {
+	background: url(../images/bg4.jpg) no-repeat;
+	margin-left: 66%;
+	background-size: cover;
+	height: 520px;	
+}
+#section7 .message span {
+	width: 30px;
+	height: 20px;
+	margin-top: 20px;
+	border-top: 2px #fff solid;
+	display: inline-block;	
+}
+#section7 .cell2 .message span {
+	border-color: #ccc;
+}
+#section8 {
+	height: 800px;
+	width: 100%;
+	text-align: center;
+}
+#section8 .top {
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+#section8 .top .message {
+	position: relative;
+	top: 100px;
+	font-size: 0;
+}
+#section8 .top .message p:first-child {
+	font-size: 18px;
+}
+#section8 .top .message span {
+	width: 30px;
+	height: 20px;
+	display: inline-block;
+	margin: 10px;
+	border-top: 2px #E44F4B solid;
+}
+#section8 .top .message p:last-child {
+	font-size: 14px;
+	color: #B3AFAC;
+}
+#section8 .left {
+	display: inline-block;
+	width: 30%;
+	height: 400px;
+	text-align: left;
+	position: relative;
+	top: -30px;
+}
+#section8 .left .message {
+	width: 350px;
+	height: 130px;
+}
+#section8 .left .message p:first-child {
+	font-size: 16px;
+	color: #6C5C5C;
+	margin: 5px 0 20px 0;
+}
+#section8 .left .message p:nth-child(2) {
+	font-size: 14px;
+	color: #B3AFAC;
+}
+#section8 .left  span {
+	font-size: 14px;
+	color: #B3AFAC;
+	float: right;
+}
+#section8 .left .message3 p {
+	font-size: 16px;
+	color: #6C5C5C;
+	margin: 5px 0 20px 0;
+}
+#section8 .right {
+	width: 700px;
+	height: 400px;
+	display: inline-block;
+}
+#section8 .right input[type="text"] {
+	width: 300px;
+	height: 40px;
+	margin: 10px;
+	padding: 10px;
+	color: #4E3A4F;
+	background-color: #E3E3E3;
+	font-size: 14px;
+	box-sizing: border-box;
+	border: 0;
+}
+#section8 .right textarea {
+	width: 620px;
+	height: 160px;
+	font-size: 14px;
+	color: #4E3A4F;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #E3E3E3;
+    border: 0;	
+}
+#section8 .right input[type="submit"] {
+	width: 620px;
+	height: 40px;
+	margin: 10px
+	color: #4E3A4F;
+	background-color: #E3E3E3;
+	font-size: 16px;
+	box-sizing: border-box;
+	border: 0;
+	text-align: center;
+	font-weight: bold;
+}
+footer #section9 {
+	height: 400px;
+	width: 100%;
+	background-color: #33363F;
+	text-align: center;
+}
+footer #section10 {
+	height: 80	px;
+	background-color: #30303A;
+	width: 100%;
+	text-align: center;
+}
+footer {
+	color: #fff;
+}
+#section9 .message {
+	display: inline-block;
+	margin-top: 80px;
+	height: 125px;
+}
+#section9 .message p:first-child {
+	font-size: 20px;
+	margin: 14px 0;
+}
+#section9 .message p:last-child {
+	font-size: 14px;
+}
+#section9 .text input {
+	width: 500px;
+	height: 40px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	color: #75757F;
+}
+#section9 .icon {
+	margin-top: 40px;
+}
+#section9 .icon img {
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+}
+#section10 .message {
+	width: 300px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 10px;
+}
+#section10 .back a{
+	float: right;
+	color: #fff;
+	font-size: 10px;
+	text-decoration: none;
+	line-height: 80px;
+	width: 300px;
+	text-align: center;
+}
