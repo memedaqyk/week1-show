@@ -334,7 +334,7 @@ footer div {
 	color: #d45d5c;
 	font: 72px "黑体";
 	float: left;
-	margin: -18px 10px 0 -40px;
+	margin: -16px 4px 0 -4px;
 }
 .right-descript2 {
 	display: inline-block;
@@ -342,5 +342,5 @@ footer div {
 	color: #d45d5c;
 	font: 72px "黑体";
 	float: right;
-	margin: -6px -10px 0 -40px;
+	margin: -20px 6px 0 0px;
 }
