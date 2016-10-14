@@ -131,7 +131,7 @@ a {
 .main-content img {
   width: 126px;
   height: 83px;
-  border: 2px #ccc solid;
+  border: 1px #aaa solid;
 }
 .main-content div {
   display: inline-block;
