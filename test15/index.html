@@ -95,16 +95,18 @@ function btnHandle() {
   var aqiData = getData();
   aqiData = sortAqiData(aqiData);
   render(aqiData);
+  var btn = document.getElementById('sort-btn');
+  btn.disabled = true;
 }
 
 
 function init() {
-
   // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
   var sortBtn = document.getElementById('sort-btn');
-  sortBtn.addEventListener('click', function() {
-    btnHandle();
-  },false);
+  // sortBtn.addEventListener('click', function() {
+  //   btnHandle();
+  // },false);
+  sortBtn.onclick = btnHandle;
 }
 
 init();
